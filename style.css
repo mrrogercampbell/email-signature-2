@@ -23,12 +23,11 @@ body {
     }
 
     table {
-        background: none;
+        /* background: none; */
+        background: rgba(72, 71, 71, 0.1);
         margin: 0;
-        padding: 10px 10px 0;
+        padding: 10px 10px;
         border-width: 3px 0 0 0;
-        border-style: solid;
-        border-color: #7D89AB;
     }
 
     tr.outer-row td.headshot-cell {
@@ -42,7 +41,7 @@ body {
     td.headshot-cell img {
         vertical-align: middle;
         width: 120px;
-        /* border-radius: 100%; */
+        border-radius: 20%;
     }
 
     td.description-cell {
@@ -65,9 +64,9 @@ body {
 
     td.title {
         padding-bottom: 10px;
-        color: #333333;
+        color: #8f8f1f;
         font-size: 14px;
-        font-family: sans-serif;
+        font-family: 'Source Sans Pro';
     }
 
     td.website {
@@ -75,11 +74,11 @@ body {
         vertical-align: top;
         color: #333333;
         font-size: 14px;
-        font-family: sans-serif;
+        font-family: 'Source Sans Pro';
     }
 
     td.website a {
-        color: #4BAFDB;
+        color: #8f8f1f;
         text-decoration: none;
         font-weight: normal;
         font-size: 14px;
