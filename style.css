@@ -13,21 +13,22 @@ body {
         background-color: #fff;
         background:
         /* url('./assets/bg/overlay.png'), */
-        linear-gradient(rgba(0, 0, 0, 0.6), rgba(172, 153, 153, 0.6)), 
-        url('./assets/bg/Sci-Fi.jpg');
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(172, 153, 153, 0.6)),
+        url('https://github.com/rc1336/email-signature-2/blob/master/assets/bg/Sci-Fi.jpg?raw=true');
         background-size:     cover;
         background-repeat:   no-repeat;
-        background-position: center center;
+        background-position: center;
         opacity: 0.95;
 
     }
 
     table {
         /* background: none; */
-        background: rgba(72, 71, 71, 0.1);
+        /* background: rgba(72, 71, 71, 0.2); */
         margin: 0;
         padding: 10px 10px;
         border-width: 3px 0 0 0;
+        border-radius: 15%;
     }
 
     tr.outer-row td.headshot-cell {
@@ -57,7 +58,7 @@ body {
 
     td.full-name {
         /* font-weight: bold; */
-        color: #8f8f1f;
+        color: #d0caca;
         font-size: 18px;
         font-family: 'Source Sans Pro';
     }
